@@ -20,3 +20,7 @@ pesa <- dataxy$x
 mauzo <- dataxy$y
 
 cor(x, y)
+
+plot(x, y)
+
+model1<-lm(x-y)
